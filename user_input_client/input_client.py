@@ -26,18 +26,17 @@ class UserInputClient(Node):
 def main():
     rclpy.init()
 
-
-   
-
-
     user_input_client = UserInputClient()
 
     task = sys.argv[1]
     user_input_client.get_logger().info(f"task given bu user: {task}")
-    #os.remove(pipe_path)
+    
 
     response = user_input_client.send_request(task=task)
     user_input_client.get_logger().info(f"success {response}")
+
+    user_input_client.destroy_node()
+    rclpy.shutdown()
 
         
 
