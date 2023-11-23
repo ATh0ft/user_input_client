@@ -29,16 +29,14 @@ def main():
     user_input_client = UserInputClient()
 
     task = sys.argv[1]
-    user_input_client.get_logger().info(f"task given bu user: {task}")
+    user_input_client.get_logger().info(f"Task given by user: {task}")
     
 
     response = user_input_client.send_request(task=task)
-    user_input_client.get_logger().info(f"success {response.success}, msg {response.msg}")
+    user_input_client.get_logger().info(f"recived: success:{response.success}, msg:{response.msg}")
 
     user_input_client.destroy_node()
     rclpy.shutdown()
-
-        
 
 
 if __name__ == "__main__":
