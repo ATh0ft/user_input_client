@@ -33,7 +33,7 @@ def main():
     
 
     response = user_input_client.send_request(task=task)
-    user_input_client.get_logger().info(f"success {response}")
+    user_input_client.get_logger().info(f"success {response.success}, msg {response.msg}")
 
     user_input_client.destroy_node()
     rclpy.shutdown()
