@@ -7,7 +7,7 @@
   <maintainer email="93187726+ATh0ft@users.noreply.github.com">user1</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rlcpy</depend>
+  <depend>rclpy</depend>
   <depend>custom_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
