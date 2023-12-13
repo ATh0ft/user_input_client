@@ -1,57 +1,13 @@
-Please fill a glass with water for me.
-Could you pour water into a container for me?
-I'd appreciate it if you could pour me a glass of water.
-Pour some water, if you don't mind.
-Can you fill a cup with water, please?
-I'd like a serving of water, if you could.
-Would you mind pouring me a bit of water?
-Kindly pour some water into this glass.
-Could you assist by pouring me some water?
-Pouring a bit of water for me would be great.
-###
-Position the bottle at [0.5, -0.3, 0.8].
-Set the bottle at [0.2, 0.7, -0.4].
-Put the bottle at [-0.6, 0.9, -0.2].
-Position the bottle at [0.8, -0.1, -0.7].
-Place the bottle at [-0.4, -0.6, 0.3].
-Arrange the bottle at [0.1, 0.5, -0.9].
-Set the bottle at [-0.7, -0.2, 0.6].
-Put the bottle at [0.3, -0.8, 0.4].
-Position the bottle at [-0.9, 0.4, 0.2].
-Place the bottle at [0.6, 0.2, -1.0].
-###
-Lift the container.
-Grasp the flask.
-Take hold of the jar.
-Retrieve the vessel.
-Raise the container.
-Secure the canteen.
-Snatch the receptacle.
-Acquire the bottle.
-Seize the canister.
-Collect the bottle.
-###
-Move the left arm to [0.3, -0.8, -0.5] while maintaining its current orientation.
-Adjust the right arm to [-0.6, 0.1, 0.7] without altering its current orientation.
-Shift the left arm to [0.8, -0.4, 0.2] while preserving its current orientation.
-Relocate the right arm to [-0.1, 0.5, -0.9] with its current orientation maintained.
-Transfer the left arm to [0.7, 0.2, -0.6] while keeping its orientation unchanged.
-Move the right arm to [-0.3, -0.7, 0.4] while ensuring its current orientation is maintained.
-Adjust the left arm to [0.9, 0.6, -0.1] without altering its present orientation.
-Shift the right arm to [-0.2, 0.4, 0.8] while preserving its current orientation.
-Relocate the left arm to [0.5, -1.0, 0.3] with its orientation unchanged.
-Transfer the right arm to [-0.4, 0.8, -0.7] while maintaining its current orientation.
-###
-Adjust the [side] arm to [0.3, -0.8, -0.5] with the orientation [0.1, 0.7, -0.2, 0.9].
-Shift the [side] arm to [-0.6, 0.1, 0.7] with the orientation [-0.4, 0.2, 0.8, -0.6].
-Move the [side] arm to [0.8, -0.4, 0.2] with the orientation [0.5, -0.9, 0.3, 0.1].
-Relocate the [side] arm to [-0.1, 0.5, -0.9] with the orientation [-0.2, 0.4, 0.7, -0.5].
-Transfer the [side] arm to [0.7, 0.2, -0.6] with the orientation [0.6, -0.3, 0.8, 0.1].
-Move the [side] arm to [-0.3, -0.7, 0.4] with the orientation [-0.9, 0.5, -0.1, 0.2].
-Adjust the [side] arm to [0.9, 0.6, -0.1] with the orientation [0.4, -0.8, 0.2, -0.3].
-Shift the [side] arm to [-0.2, 0.4, 0.8] with the orientation [0.7, 0.1, -0.5, 0.9].
-Relocate the [side] arm to [0.5, -1.0, 0.3] with the orientation [-0.6, 0.3, -0.8, 0.2].
-Transfer the [side] arm to [-0.4, 0.8, -0.7] with the orientation [0.2, -0.6, 0.9, -0.4].
+Adjust the left arm to [0.3, -0.8, -0.5] with the orientation [0.1, 0.7, -0.2, 0.9].
+Shift the right arm to [-0.6, 0.1, 0.7] with the orientation [-0.4, 0.2, 0.8, -0.6].
+Move the left arm to [0.8, -0.4, 0.2] with the orientation [0.5, -0.9, 0.3, 0.1].
+Relocate the right arm to [-0.1, 0.5, -0.9] with the orientation [-0.2, 0.4, 0.7, -0.5].
+Transfer the left arm to [0.7, 0.2, -0.6] with the orientation [0.6, -0.3, 0.8, 0.1].
+Move the right arm to [-0.3, -0.7, 0.4] with the orientation [-0.9, 0.5, -0.1, 0.2].
+Adjust the left arm to [0.9, 0.6, -0.1] with the orientation [0.4, -0.8, 0.2, -0.3].
+Shift the right arm to [-0.2, 0.4, 0.8] with the orientation [0.7, 0.1, -0.5, 0.9].
+Relocate the left arm to [0.5, -1.0, 0.3] with the orientation [-0.6, 0.3, -0.8, 0.2].
+Transfer the right arm to [-0.4, 0.8, -0.7] with the orientation [0.2, -0.6, 0.9, -0.4].
 ###
 Can you provide the current position and orientation of the robot?
 What constitutes the current pose of the robot?

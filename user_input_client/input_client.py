@@ -28,12 +28,17 @@ def main():
 
     user_input_client = UserInputClient()
 
-    task = sys.argv[1]
-    user_input_client.get_logger().info(f"Task given by user: {task}")
-    
+    test_prompts_raw = open("/home/user1/ros2_ws/src/user_input_client/user_input_client/LLM_test_prompts.txt").read()
+    test_prompts_sep_by_cat = test_prompts_raw.split("###")
+    full_sep_prompt_arr = []
 
-    response = user_input_client.send_request(task=task)
-    user_input_client.get_logger().info(f"recived: success:{response.success}, msg:{response.msg}")
+    for test_cat in test_prompts_sep_by_cat:
+        full_sep_prompt_arr.append(test_cat.split("\n"))
+    
+    for test_cat in full_sep_prompt_arr:
+        for task in test_cat:
+            response = user_input_client.send_request(task=task)
+            user_input_client.get_logger().info(f"recived: success:{response.success}, msg:{response.msg}")
 
     user_input_client.destroy_node()
     rclpy.shutdown()
